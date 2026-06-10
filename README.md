@@ -71,7 +71,7 @@ git clone https://github.com/294Ryan/RunningSquare.git
 
 ## **🛠使用技術**
 - **Pygame**: 遊戲主框架，負責視窗管理、事件處理、精靈群組、遮罩碰撞偵測
-- **Sprite Mask Collision (`collide_mask`)**: 以像素層級精準偵測角色與地形／敵人的碰撞
+- **Sprite Mask Collision (`collide_mask`)**: 以像素層級精準偵測角色與地形/敵人的碰撞
 - **Hitbox 系統**: 使用四個獨立的隱形碰撞箱（上下左右）分別處理不同方向的物理行為
 - **`os.walk` + `sys._MEIPASS`**: 支援 PyInstaller 打包後的資源路徑解析
 - **多音效驅動自動切換**: 依序嘗試 `wasapi` → `directsound` → `dummy`，確保跨環境音效穩定性
