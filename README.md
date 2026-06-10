@@ -53,7 +53,7 @@
 2. 請執行以下指令複製此倉庫至您的本地電腦:
 ```
 cd 目標目錄
-git clone 路徑.git
+git clone https://github.com/294Ryan/RunningSquare.git
 ```
 3. 使用語言:
    - Python 3.x
@@ -160,7 +160,7 @@ Download and extract the repository contents first.
 2. Clone this repository to your local machine:
 ```
 cd target-directory
-git clone url.git
+git clone https://github.com/294Ryan/RunningSquare.git
 ```
 3. Language used:
    - Python 3.x
