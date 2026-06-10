@@ -66,6 +66,7 @@ git clone https://github.com/294Ryan/RunningSquare.git
 
 5. 使用技術: 請參見[使用技術](#使用技術)
 6. 專案結構: 請參見[專案結構](#專案結構)
+7. ⚠️ 注意：本專案代碼僅供學術研究與個人測試使用，由作者`294Ryan`保留所有權利，未獲書面授權嚴禁任何形式的商用。
 
 
 ## **🛠使用技術**
@@ -101,7 +102,7 @@ RunningSquare/
 
 ## **ℹ️備註**
 - 維護者: 294Ryan - [Github](https://github.com/294Ryan)
-- 使用條款: MIT License
+- ⚠️ 注意：本專案代碼僅供學術研究與個人測試使用，由作者`294Ryan`保留所有權利，未獲書面授權嚴禁任何形式的商用。
 - ⚠️ 本專案供教育研究使用，使用時請尊重所有版權與權利擁有者。任何因不當使用造成的後果請自負。
 
 
@@ -173,6 +174,7 @@ git clone https://github.com/294Ryan/RunningSquare.git
 
 5. Technologies Used: See [Technologies Used](#technologies-used)
 6. Project Structure: See [Project Structure](#project-structure)
+7. ⚠️ Note: This project code is for academic research and personal testing purposes only. All rights are reserved by the author `294Ryan`. Commercial use in any form is strictly prohibited without written authorization.
 
 
 ## **🛠Technologies Used**
@@ -208,5 +210,5 @@ RunningSquare/
 
 ## **ℹ️Notes**
 - Maintainer: 294Ryan - [Github](https://github.com/294Ryan)
-- License: MIT License
+- ⚠️Note: This project code is for academic research and personal testing purposes only. All rights are reserved by the author `294Ryan`. Commercial use in any form is strictly prohibited without written authorization.
 - ⚠️ This project is intended for educational and research purposes. Please respect all copyrights and rights holders. Any consequences arising from improper use are solely your responsibility.
