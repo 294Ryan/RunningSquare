@@ -1,6 +1,6 @@
-◽️[中文](#running-square)    ◽️[English](#running-square-1)
+◽️[中文](#running-square-遊戲)    ◽️[English](#running-square-game)
 
-# ***Running Square***
+# ***Running Square 遊戲***
 
 ## **📜目錄**
 - [專案概述](#專案概述)
@@ -108,7 +108,7 @@ RunningSquare/
 
 ---
 
-# ***Running Square***
+# ***Running Square Game***
 
 ## **📜Table of Contents**
 - [Overview](#overview)
