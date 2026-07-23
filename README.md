@@ -48,7 +48,7 @@
    - 按 `ESC` 切換背景音樂靜音/恢復
 
 
-## **💻開發須知**
+## **開發須知**
 1. 請先閱讀以下開發須知並遵守所用條款。
 2. 請執行以下指令複製此倉庫至您的本地電腦:
 ```
@@ -152,7 +152,7 @@ Download and extract the repository contents first.
    - Press `ESC` to toggle background music on/off
 
 
-## **💻Development Guide**
+## **Development Guide**
 1. Please read the following guide and comply with the applicable license terms.
 2. Clone this repository to your local machine:
 ```
