@@ -2,7 +2,7 @@
 
 # ***Running Square 遊戲***
 
-## **📜目錄**
+## **目錄**
 - [專案概述](#專案概述)
 - [重點特色](#重點特色)
 - [使用說明](#使用說明)
@@ -12,11 +12,11 @@
 - [備註](#備註)
 
 
-## **✏️專案概述**
+## **專案概述**
 **Running Square** 是一款以 Python + Pygame 製作的 2D 橫向平台闖關遊戲。玩家操控一個方塊角色，在 15 個設計各異的關卡中穿越障礙、躲避敵人，抵達終點即可過關。
 
 
-## **✨重點特色**
+## **重點特色**
 - 共 15 個手工設計的關卡，難度逐漸遞增
 - 多種危險機關：靜態釘子、下落釘子、來回移動的敵人
 - 動態地板：水平/垂直移動的飛行地板
@@ -25,7 +25,7 @@
 - 角色具備多狀態動畫（行走、靜止、閃爍、死亡）
 
 
-## **✅️使用說明**
+## **使用說明**
 請先下載本倉庫內容並將其解壓縮。
 
 - **啟動**: 執行 `.exe` 檔案，如 `RunningSquare_vX.X.exe`
@@ -66,10 +66,10 @@ git clone https://github.com/294Ryan/RunningSquare.git
 
 5. 使用技術: 請參見[使用技術](#使用技術)
 6. 專案結構: 請參見[專案結構](#專案結構)
-7. ⚠️ 注意：本專案代碼僅供學術研究與個人測試使用，由作者`294Ryan`保留所有權利，未獲書面授權嚴禁任何形式的商用。
+7. 注意：本專案代碼僅供學術研究與個人測試使用，由作者`294Ryan`保留所有權利，未獲書面授權嚴禁任何形式的商用。
 
 
-## **🛠使用技術**
+## **使用技術**
 - **Pygame**: 遊戲主框架，負責視窗管理、事件處理、精靈群組、遮罩碰撞偵測
 - **Sprite Mask Collision (`collide_mask`)**: 以像素層級精準偵測角色與地形/敵人的碰撞
 - **Hitbox 系統**: 使用四個獨立的隱形碰撞箱（上下左右）分別處理不同方向的物理行為
@@ -77,40 +77,36 @@ git clone https://github.com/294Ryan/RunningSquare.git
 - **多音效驅動自動切換**: 依序嘗試 `wasapi` → `directsound` → `dummy`，確保跨環境音效穩定性
 
 
-## **🗂專案結構**
+## **專案結構**
 ```
 RunningSquare/
-├── main.py              # 主程式（遊戲主迴圈與關卡邏輯）
-├── image/
-│   ├── lv1.png ~ lv15.png   # 各關卡地圖圖片
-│   ├── player_*.png         # 角色各狀態圖片
-│   ├── enemy.png
-│   ├── nail.png / fallnail.png
-│   ├── spring_nor.png / spring_pre.png
-│   ├── flyground.png
-│   ├── hitbox.png
-│   ├── bg_start/playing/end.png
-│   └── icon_new.ico
-├── sound/
-│   ├── bgm.mp3
-│   ├── die.wav / go.wav / jump.wav
-│   ├── levelup.wav / win.wav
-└── font/
-    └── TaipeiSansTCBeta-Light.ttf
+├─font/
+│  └─TaipeiSansTCBeta-Light.ttf
+├─icons/
+│  ├─icon_v1.ico
+│  └─icon_v2.ico
+├─image/
+│  └─ *.png
+├─sound/
+│  └─ *.mp3 / *.wav
+├─.gitignore
+├─README.md
+├─RunningSquare_v5.py      # 主程式進入點
+└─RunningSquare_v5.spec
 ```
 
 
-## **ℹ️備註**
+## **備註**
 - 維護者: 294Ryan - [Github](https://github.com/294Ryan)
-- ⚠️ 注意：本專案代碼僅供學術研究與個人測試使用，由作者`294Ryan`保留所有權利，未獲書面授權嚴禁任何形式的商用。
-- ⚠️ 本專案供教育研究使用，使用時請尊重所有版權與權利擁有者。任何因不當使用造成的後果請自負。
+- 注意：本專案代碼僅供學術研究與個人測試使用，由作者`294Ryan`保留所有權利，未獲書面授權嚴禁任何形式的商用。
+- 本專案供教育研究使用，使用時請尊重所有版權與權利擁有者。任何因不當使用造成的後果請自負。
 
 
 ---
 
 # ***Running Square Game***
 
-## **📜Table of Contents**
+## **Table of Contents**
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Usage](#usage)
@@ -120,11 +116,11 @@ RunningSquare/
 - [Notes](#notes)
 
 
-## **✏️Overview**
+## **Overview**
 **Running Square** is a 2D side-scrolling platformer game built with Python and Pygame. Players control a square character through 15 uniquely designed levels, dodging obstacles and enemies to reach the goal.
 
 
-## **✨Key Features**
+## **Key Features**
 - 15 handcrafted levels with progressively increasing difficulty
 - Diverse hazards: static nails, falling nails, and patrolling enemies
 - Dynamic platforms: horizontally and vertically moving flying grounds
@@ -133,7 +129,7 @@ RunningSquare/
 - Multi-state character animations (walking, idle, flashing, death)
 
 
-## **✅️Usage**
+## **Usage**
 Download and extract the repository contents first.
 
 - **Launch**: Run the `.exe` file, e.g. `RunningSquare_vX.X.exe`
@@ -174,10 +170,10 @@ git clone https://github.com/294Ryan/RunningSquare.git
 
 5. Technologies Used: See [Technologies Used](#technologies-used)
 6. Project Structure: See [Project Structure](#project-structure)
-7. ⚠️ Note: This project code is for academic research and personal testing purposes only. All rights are reserved by the author `294Ryan`. Commercial use in any form is strictly prohibited without written authorization.
+7. Note: This project code is for academic research and personal testing purposes only. All rights are reserved by the author `294Ryan`. Commercial use in any form is strictly prohibited without written authorization.
 
 
-## **🛠Technologies Used**
+## **Technologies Used**
 - **Pygame**: Core game framework handling windowing, event processing, sprite groups, and mask-based collision detection
 - **Sprite Mask Collision (`collide_mask`)**: Pixel-perfect collision detection between the player, terrain, and enemies
 - **Hitbox System**: Four independent invisible hitbox sprites (top, bottom, left, right) to handle directional physics separately
@@ -185,30 +181,26 @@ git clone https://github.com/294Ryan/RunningSquare.git
 - **Audio Driver Auto-fallback**: Sequentially tries `wasapi` → `directsound` → `dummy` to ensure stable audio across environments
 
 
-## **🗂Project Structure**
+## **Project Structure**
 ```
 RunningSquare/
-├── main.py              # Main program (game loop & level logic)
-├── image/
-│   ├── lv1.png ~ lv15.png   # Level map images
-│   ├── player_*.png         # Player state images
-│   ├── enemy.png
-│   ├── nail.png / fallnail.png
-│   ├── spring_nor.png / spring_pre.png
-│   ├── flyground.png
-│   ├── hitbox.png
-│   ├── bg_start/playing/end.png
-│   └── icon_new.ico
-├── sound/
-│   ├── bgm.mp3
-│   ├── die.wav / go.wav / jump.wav
-│   ├── levelup.wav / win.wav
-└── font/
-    └── TaipeiSansTCBeta-Light.ttf
+├─font/
+│  └─TaipeiSansTCBeta-Light.ttf
+├─icons/
+│  ├─icon_v1.ico
+│  └─icon_v2.ico
+├─image/
+│  └─ *.png
+├─sound/
+│  └─ *.mp3 / *.wav
+├─.gitignore
+├─README.md
+├─RunningSquare_v5.py      # main code file
+└─RunningSquare_v5.spec
 ```
 
 
-## **ℹ️Notes**
+## **Notes**
 - Maintainer: 294Ryan - [Github](https://github.com/294Ryan)
-- ⚠️Note: This project code is for academic research and personal testing purposes only. All rights are reserved by the author `294Ryan`. Commercial use in any form is strictly prohibited without written authorization.
-- ⚠️ This project is intended for educational and research purposes. Please respect all copyrights and rights holders. Any consequences arising from improper use are solely your responsibility.
+- Note: This project code is for academic research and personal testing purposes only. All rights are reserved by the author `294Ryan`. Commercial use in any form is strictly prohibited without written authorization.
+- This project is intended for educational and research purposes. Please respect all copyrights and rights holders. Any consequences arising from improper use are solely your responsibility.
